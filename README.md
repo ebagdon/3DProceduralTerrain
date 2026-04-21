@@ -12,7 +12,7 @@ Press the left shift key to enable and disable your mouse. Enabling the mouse al
 
 1: Download the repository.
 
-2: Download dependencies that are prompted by Visual Studio (project must be run in Visual Studio).
+2: Download dependencies as prompted by Visual Studio (project must be run in Visual Studio).
 
 3: Set the configuration to **Debug** and **x86**.
 
