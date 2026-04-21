@@ -14,6 +14,6 @@ Press the left shift key to enable and disable your mouse. Enabling the mouse al
 
 2: Download dependencies as prompted by Visual Studio (project must be run in Visual Studio).
 
-3: Set the configuration to **Debug** and **x86**.
+3: Set the configuration to **Release** and **x86**.
 
 4: Run it and allow up to 45 seconds for it to load (you will see a white screen while it is loading).
