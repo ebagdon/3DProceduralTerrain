@@ -31,3 +31,4 @@
 
 # custom ignores
 *.ipch
+.vs/
