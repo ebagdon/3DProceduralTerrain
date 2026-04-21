@@ -1,0 +1,78 @@
+﻿  Camera.cpp
+  ChunkController.cpp
+  DirectionalLight.cpp
+  GraphicsManager.cpp
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\GraphicsManager.cpp(37,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\GraphicsManager.cpp(77,52): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  Light.cpp
+  main.cpp
+  TerrainShader.cpp
+  Material.cpp
+  Mesh.cpp
+  Noise.cpp
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Noise.cpp(100,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Shader.cpp
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Shader.cpp(143,24): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  Skybox.cpp
+  SkyboxShader.cpp
+  Texture.cpp
+  Window.cpp
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(158,23): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(159,23): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(188,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(189,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(194,28): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(195,40): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(198,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(199,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+GraphicsManager.obj : error LNK2001: unresolved external symbol glfwGetTime
+TerrainShader.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+TerrainShader.obj : error LNK2001: unresolved external symbol __imp___glewUniform1f
+TerrainShader.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+TerrainShader.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+TerrainShader.obj : error LNK2001: unresolved external symbol __imp___glewUniform3f
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBufferSubData
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewDeleteVertexArrays
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewValidateProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+Skybox.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Texture.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+Window.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+Window.obj : error LNK2001: unresolved external symbol glfwGetWindowUserPointer
+Window.obj : error LNK2001: unresolved external symbol glfwGetFramebufferSize
+Window.obj : error LNK2001: unresolved external symbol glfwTerminate
+Window.obj : error LNK2001: unresolved external symbol glfwPollEvents
+Window.obj : error LNK2001: unresolved external symbol glfwInit
+Window.obj : error LNK2001: unresolved external symbol glfwSetKeyCallback
+Window.obj : error LNK2001: unresolved external symbol glfwSetWindowShouldClose
+Window.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+Window.obj : error LNK2001: unresolved external symbol glfwWindowHint
+Window.obj : error LNK2001: unresolved external symbol glfwSetInputMode
+Window.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+Window.obj : error LNK2001: unresolved external symbol glfwSetWindowUserPointer
+Window.obj : error LNK2001: unresolved external symbol glfwDestroyWindow
+Window.obj : error LNK2001: unresolved external symbol glfwSetCursorPosCallback
+Window.obj : error LNK2001: unresolved external symbol glfwGetCursorPos
+Window.obj : error LNK2001: unresolved external symbol glfwSetWindowSizeCallback
+Window.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+Window.obj : error LNK2001: unresolved external symbol __imp_glewInit
+C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\x64\Release\3DProceduralTerrain.exe : fatal error LNK1120: 50 unresolved externals

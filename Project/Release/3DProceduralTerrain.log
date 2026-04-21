@@ -1,0 +1,21 @@
+﻿  Camera.cpp
+  ChunkController.cpp
+  DirectionalLight.cpp
+  GraphicsManager.cpp
+  Light.cpp
+  main.cpp
+  TerrainShader.cpp
+  Material.cpp
+  Mesh.cpp
+  Noise.cpp
+  Shader.cpp
+  Skybox.cpp
+  SkyboxShader.cpp
+  Texture.cpp
+  Window.cpp
+  Generating code
+  549 of 557 functions (98.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  3DProceduralTerrain.vcxproj -> C:\Users\easto\Desktop\3DProceduralTerrain\Release\3DProceduralTerrain.exe
