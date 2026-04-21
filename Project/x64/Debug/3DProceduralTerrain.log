@@ -1,0 +1,74 @@
+﻿  Camera.cpp
+  ChunkController.cpp
+  DirectionalLight.cpp
+  GraphicsManager.cpp
+  Light.cpp
+  main.cpp
+  TerrainShader.cpp
+  Material.cpp
+  Mesh.cpp
+  Noise.cpp
+  Shader.cpp
+  Skybox.cpp
+C:\Users\easto\Desktop\3DProceduralTerrain\Project\Shader.cpp(143,24): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  SkyboxShader.cpp
+  Texture.cpp
+  Window.cpp
+  Generating Code...
+GraphicsManager.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "public: void __cdecl GraphicsManager::Run(void)" (?Run@GraphicsManager@@QEAAXXZ)
+TerrainShader.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "public: __cdecl TerrainShader::TerrainShader(void)" (??0TerrainShader@@QEAA@XZ)
+SkyboxShader.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+TerrainShader.obj : error LNK2019: unresolved external symbol __imp___glewUniform1f referenced in function "public: void __cdecl TerrainShader::SetShaderCommonValues(struct glm::mat<4,4,float,0>,struct glm::mat<4,4,float,0>,struct glm::vec<3,float,0>,bool,struct glm::vec<3,float,0>,float,float,struct glm::vec<3,float,0>,float,float)" (?SetShaderCommonValues@TerrainShader@@QEAAXU?$mat@$03$03M$0A@@glm@@0U?$vec@$02M$0A@@3@_N1MM1MM@Z)
+TerrainShader.obj : error LNK2019: unresolved external symbol __imp___glewUniform1i referenced in function "public: void __cdecl TerrainShader::SetShaderCommonValues(struct glm::mat<4,4,float,0>,struct glm::mat<4,4,float,0>,struct glm::vec<3,float,0>,bool,struct glm::vec<3,float,0>,float,float,struct glm::vec<3,float,0>,float,float)" (?SetShaderCommonValues@TerrainShader@@QEAAXU?$mat@$03$03M$0A@@glm@@0U?$vec@$02M$0A@@3@_N1MM1MM@Z)
+SkyboxShader.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+TerrainShader.obj : error LNK2019: unresolved external symbol __imp___glewUniform3f referenced in function "public: void __cdecl TerrainShader::SetShaderCommonValues(struct glm::mat<4,4,float,0>,struct glm::mat<4,4,float,0>,struct glm::vec<3,float,0>,bool,struct glm::vec<3,float,0>,float,float,struct glm::vec<3,float,0>,float,float)" (?SetShaderCommonValues@TerrainShader@@QEAAXU?$mat@$03$03M$0A@@glm@@0U?$vec@$02M$0A@@3@_N1MM1MM@Z)
+TerrainShader.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function "public: void __cdecl TerrainShader::SetShaderCommonValues(struct glm::mat<4,4,float,0>,struct glm::mat<4,4,float,0>,struct glm::vec<3,float,0>,bool,struct glm::vec<3,float,0>,float,float,struct glm::vec<3,float,0>,float,float)" (?SetShaderCommonValues@TerrainShader@@QEAAXU?$mat@$03$03M$0A@@glm@@0U?$vec@$02M$0A@@3@_N1MM1MM@Z)
+SkyboxShader.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "public: void __cdecl Mesh::CalculateNormals(float *,int,int,struct glm::vec<3,float,0>,struct glm::vec<3,float,0>,struct glm::vec<3,float,0>,struct glm::vec<3,float,0>)" (?CalculateNormals@Mesh@@QEAAXPEAMHHU?$vec@$02M$0A@@glm@@111@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "private: void __cdecl Mesh::Init(float *,unsigned int *,int,int,int)" (?Init@Mesh@@AEAAXPEAMPEAIHHH@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBufferSubData referenced in function "public: void __cdecl Mesh::CalculateNormals(float *,int,int,struct glm::vec<3,float,0>,struct glm::vec<3,float,0>,struct glm::vec<3,float,0>,struct glm::vec<3,float,0>)" (?CalculateNormals@Mesh@@QEAAXPEAMHHU?$vec@$02M$0A@@glm@@111@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewDeleteBuffers referenced in function "public: __cdecl Mesh::~Mesh(void)" (??1Mesh@@QEAA@XZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "private: void __cdecl Mesh::Init(float *,unsigned int *,int,int,int)" (?Init@Mesh@@AEAAXPEAMPEAIHHH@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "private: void __cdecl Mesh::Init(float *,unsigned int *,int,int,int)" (?Init@Mesh@@AEAAXPEAMPEAIHHH@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "private: void __cdecl Mesh::Init(float *,unsigned int *,int,int,int)" (?Init@Mesh@@AEAAXPEAMPEAIHHH@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "public: void __cdecl Mesh::CalculateNormals(float *,int,int,struct glm::vec<3,float,0>,struct glm::vec<3,float,0>,struct glm::vec<3,float,0>,struct glm::vec<3,float,0>)" (?CalculateNormals@Mesh@@QEAAXPEAMHHU?$vec@$02M$0A@@glm@@111@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewDeleteVertexArrays referenced in function "public: __cdecl Mesh::~Mesh(void)" (??1Mesh@@QEAA@XZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "private: void __cdecl Mesh::Init(float *,unsigned int *,int,int,int)" (?Init@Mesh@@AEAAXPEAMPEAIHHH@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "protected: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@IEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "protected: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@IEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "protected: void __cdecl Shader::BuildProgram(char const *,char const *,char const *)" (?BuildProgram@Shader@@IEAAXPEBD00@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "protected: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@IEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewDeleteProgram referenced in function "public: __cdecl Shader::~Shader(void)" (??1Shader@@QEAA@XZ)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramInfoLog referenced in function "protected: void __cdecl Shader::CompileProgram(void)" (?CompileProgram@Shader@@IEAAXXZ)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramiv referenced in function "protected: void __cdecl Shader::CompileProgram(void)" (?CompileProgram@Shader@@IEAAXXZ)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "protected: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@IEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "protected: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@IEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "protected: void __cdecl Shader::CompileProgram(void)" (?CompileProgram@Shader@@IEAAXXZ)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "protected: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@IEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function "public: void __cdecl Shader::ActivateShader(void)" (?ActivateShader@Shader@@QEAAXXZ)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewValidateProgram referenced in function "public: void __cdecl Shader::ValidateProgram(void)" (?ValidateProgram@Shader@@QEAAXXZ)
+Skybox.obj : error LNK2019: unresolved external symbol __imp___glewActiveTexture referenced in function "public: void __cdecl Skybox::DrawSkybox(struct glm::mat<4,4,float,0>,struct glm::mat<4,4,float,0>)" (?DrawSkybox@Skybox@@QEAAXU?$mat@$03$03M$0A@@glm@@0@Z)
+Texture.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Texture.obj : error LNK2019: unresolved external symbol __imp___glewGenerateMipmap referenced in function "public: bool __cdecl Texture::LoadTexture(void)" (?LoadTexture@Texture@@QEAA_NXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: bool __cdecl Window::GetWindowShouldClose(void)" (?GetWindowShouldClose@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "private: static void __cdecl Window::HandleKeys(struct GLFWwindow *,int,int,int,int)" (?HandleKeys@Window@@CAXPEAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function "public: float __cdecl Window::GetAspectRatio(void)" (?GetAspectRatio@Window@@QEAAMXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetWindowUserPointer referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwGetWindowUserPointer referenced in function "private: static void __cdecl Window::HandleKeys(struct GLFWwindow *,int,int,int,int)" (?HandleKeys@Window@@CAXPEAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwSetWindowSizeCallback referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "public: void __cdecl Window::Update(void)" (?Update@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function "private: static void __cdecl Window::HandleKeys(struct GLFWwindow *,int,int,int,int)" (?HandleKeys@Window@@CAXPEAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "private: static void __cdecl Window::HandleKeys(struct GLFWwindow *,int,int,int,int)" (?HandleKeys@Window@@CAXPEAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "private: void __cdecl Window::Init(void)" (?Init@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "public: void __cdecl Window::Update(void)" (?Update@Window@@QEAAXXZ)
+C:\Users\easto\Desktop\3DProceduralTerrain\\External Libs\GLFW\lib-vc2022\\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\easto\Desktop\3DProceduralTerrain\\External Libs\GLEW\win32lib\\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\easto\Desktop\3DProceduralTerrain\x64\Debug\3DProceduralTerrain.exe : fatal error LNK1120: 50 unresolved externals
