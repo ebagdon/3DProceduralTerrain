@@ -2,28 +2,17 @@
   ChunkController.cpp
   DirectionalLight.cpp
   GraphicsManager.cpp
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\GraphicsManager.cpp(37,14): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\GraphicsManager.cpp(77,52): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   Light.cpp
   main.cpp
   TerrainShader.cpp
   Material.cpp
   Mesh.cpp
   Noise.cpp
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Noise.cpp(100,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Shader.cpp
   Skybox.cpp
   SkyboxShader.cpp
   Texture.cpp
   Window.cpp
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(158,23): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(159,23): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(188,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(189,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(194,28): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(195,40): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(198,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\3DProceduralTerrain\Window.cpp(199,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
   Generating Code...
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  3DProceduralTerrain.vcxproj -> C:\Users\easto\Desktop\3DProceduralTerrainGithub\3DProceduralTerrain\Debug\3DProceduralTerrain.exe
+  3DProceduralTerrain.vcxproj -> C:\Users\easto\Desktop\3DProceduralTerrain\Debug\3DProceduralTerrain.exe
